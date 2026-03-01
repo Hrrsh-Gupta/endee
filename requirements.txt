@@ -1,0 +1,7 @@
+endee==0.1.15
+pypdf==6.7.4
+python-docx==1.2.0
+requests==2.32.5
+streamlit==1.54.0
+google-genai==1.65.0
+python-dotenv==1.2.1
