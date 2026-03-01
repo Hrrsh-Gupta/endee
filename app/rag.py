@@ -52,6 +52,6 @@ class RAGSystem:
         cleaned_text = self.clean_text(raw_text)
 
         if len(cleaned_text) < 500:
-            raise ValueError("PDF appears to be scanned or empty. OCR is needed.")
+            raise ValueError("Document appears to be scanned or empty. OCR is needed.")
 
         return self.chunk_text(cleaned_text)
