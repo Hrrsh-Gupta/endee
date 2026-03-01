@@ -311,7 +311,7 @@ if st.session_state.ready:
                 query_status.markdown("<small>**[4/4]** Generating response...</small>", unsafe_allow_html=True)
 
 
-                # Prompt with conversation memory
+                # Prompt
                 prompt = f"""
                     You are an AI assistant helping users understand a document. Answer the question based on the provided context and conversation history.
 
