@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("GOOGLE_API_KEY")
-# print(f"Loaded API Key: {API_KEY}")
 ENDEE_BASE_URL = "http://localhost:8080"
 
 EMBEDDING_MODEL = "gemini-embedding-001"
